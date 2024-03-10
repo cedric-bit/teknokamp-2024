@@ -1,0 +1,47 @@
+.chart-container canvas {
+    flex: 1;                  /* Assure une répartition égale de l'espace */
+    max-width: 400px;         /* Limite la largeur maximum */
+    max-height: 400px;        /* Limite la hauteur maximum */
+    margin: 10px;             /* Espace entre les graphiques */
+  }
+  
+  .chart-container {
+    display: flex;            /* Utilise Flexbox pour aligner les enfants */
+    justify-content: center;  /* Centre les enfants horizontalement */
+    align-items: center;      /* Centre les enfants verticalement */
+  }
+  
+  .chart-container canvas {
+    flex: 1;                  /* Les enfants prennent un espace égal */
+    margin: 10px;             /* Ajoute un peu d'espace entre les graphiques */
+  }
+  /* CSS */
+.eco-page {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.eco-page h3 {
+    font-size: 24px;
+    color: #008000; /* Green color for emphasis */
+}
+
+.chart-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/* Style des canvas */
+canvas {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+h3 {
+    text-align: center;
+    font-size: 24px;
+    color: #2ecc71; /* couleur verte par exemple */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
